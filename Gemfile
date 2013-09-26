@@ -1,4 +1,5 @@
 source :rubygems
+ruby '2.0.0'
 
 #gem "rack"
 #gem "rake"                # actually not need for heroku but for the provided Rakefile
