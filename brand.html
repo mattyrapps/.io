@@ -1,0 +1,13 @@
+---
+layout: posts
+title: MSMK — Branding
+
+---
+
+<h2 class="width-full-left pad-top-08">Brand Overview</h2>
+
+<ul class="posts">
+{% for post in site.posts %}
+  <li class="width-full-left" style="background-color:{{ post.bg-color }};"><h3>{{ post.title }} <a class="f-size-8 f-black40" href="{{ post.url }}">permalink</a></h3>{{ post.content }}</li>
+{% endfor %}
+</ul>
