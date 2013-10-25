@@ -1,3 +1,5 @@
+baseurl: http://theempirebuildersgroup.com
+# jekyll serve --watch --baseurl=
 name: MSMK
 markdown: redcarpet
 pygments: true

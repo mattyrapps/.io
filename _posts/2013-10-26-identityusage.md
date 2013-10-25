@@ -7,7 +7,7 @@ bg-color: white
 ---
 
 <br/>
-![Logo Usage](../img/logo-usage.png)
+![Logo Usage]({{site.baseurl}}/img/logo-usage.png)
 
 <br/>
-![Logo Usage](../img/logo-usage-2.png)
+![Logo Usage]({{site.baseurl}}/img/logo-usage-2.png)
