@@ -1,7 +1,7 @@
 /* ==========================================================================
    Imports
    ========================================================================== */
-/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -333,6 +333,18 @@ table {
 /* Don't use black */
 /* Gray scale */
 /* Brand Colors */
+.bg-blk {
+  background-color: black; }
+
+.bg-wht {
+  background-color: white; }
+
+.bg-pnk {
+  background-color: #f5e4ec; }
+
+.bg-gry {
+  background-color: #d3d3d5; }
+
 /* Type Scale
    ========================================================================== */
 /**
@@ -408,6 +420,9 @@ table {
   text-transform: uppercase; }
 
 /* ------------------ Colors ------------------ */
+.f-white {
+  color: white; }
+
 .f-black {
   color: black; }
 
@@ -557,16 +572,17 @@ h6, .h6 {
 .margin-2x-after {
   margin-bottom: 2em; }
 
+.pad-vert-center {
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.pad-1em {
+  padding: 1em; }
+
 /* ==========================================================================
    Site styles
    ========================================================================== */
 /* --------- Masters --------- */
-.bg-white {
-  background-color: white; }
-
-.bg-pink {
-  background-color: #f5e4ec; }
-
 .ul-nostyle, ul {
   list-style: none;
   margin: 0;
