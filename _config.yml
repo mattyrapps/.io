@@ -4,4 +4,4 @@ name: MSMK
 markdown: redcarpet
 pygments: true
 permalink: pretty
-exclude: ["vendor", "Gemfile"]
+exclude: ["vendor", "Gemfile", "Procfile"]
