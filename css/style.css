@@ -326,8 +326,11 @@ table {
   border-spacing: 0; }
 
 /* ==========================================================================
-   VARIABLES
+   VARIABLES & MIXINS
    ========================================================================== */
+/* Mixins */
+/* textures */
+/* http://magnus-g.github.io/texture-mixin/ */
 /* Colors
    ========================================================================== */
 /* Don't use black */
@@ -340,6 +343,8 @@ table {
   background-color: white; }
 
 .bg-pnk {
+  background-color: #f5e4ec;
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/subtle_grunge.png");
   background-color: #f5e4ec; }
 
 .bg-gry {
@@ -616,7 +621,7 @@ hr {
 
 header h1 {
   margin: 15px 0;
-  font-size: 28px; }
+  font-size: 36px; }
 
 .hi.we.are.msmk {
   padding-left: 5%; }
