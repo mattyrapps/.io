@@ -3,5 +3,5 @@ baseurl: http://jeffreylarrimore.com/msmk.io/
 name: MSMK
 markdown: redcarpet
 pygments: true
-
 permalink: pretty
+exclude: ["vendor", "Gemfile"]
