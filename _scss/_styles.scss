@@ -1,0 +1,46 @@
+/* ==========================================================================
+   Site styles
+   ========================================================================== */
+
+/* --------- Masters --------- */
+
+.ul-nostyle { list-style:none; margin:0; padding:0;}
+
+.pad-top-08 { padding-top:0.8em; }
+.pad-bottom-08 { padding-top:0.8em; }
+.pad-top-bottom-08 { padding-top:0.8em; padding-bottom:0.8em; }
+
+.pad-top-06 { padding-top:0.6em; }
+.pad-bottom-06 { padding-top:0.6em; }
+.pad-top-bottom-06 { padding-top:0.6em; padding-bottom:0.6em; }
+
+/* --------- Deafult Overrides --------- */
+
+hr {
+    @extend .max-width;
+    border:0;
+    border-bottom:solid 1px $pink20;
+    margin:3em 0;
+}
+
+header h1 {
+    margin-bottom:0.5em;
+}
+
+ul { @extend .ul-nostyle, .f-size-5, .uppercase; 
+    li { padding:0 0 1em 0;}
+    &.posts {
+        @extend .text-normal;
+        > li { padding-top:0.6em; 
+//            &:nth-of-type(2) {
+//                @extend .bg-white;
+//            }
+        }
+    }
+}
+
+a { @extend .f-black80;
+    &:hover {
+        @extend .link-unstyle;
+    }
+}

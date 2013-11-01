@@ -1,0 +1,67 @@
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+
+/* Colors
+   ========================================================================== */
+
+/* Don't use black */
+
+$near-black:  #111;
+$white: #fff;
+
+/* Gray scale */
+
+$gray-dark:   #222;
+$gray-medium: #999;
+$gray-light:  #eee;
+
+/* Brand Colors */
+$black:#000000;
+$black80:#333333;
+$black60:#666666;
+$black40:#999999;
+$black20:#CCCCCC;
+
+$pink:#F0D4E2;
+$pink80:#F2DCE8;
+$pink60:#F5E4EC;
+$pink40:#F7ECF2;
+$pink20:#FBF4F8;
+
+$graytan:#D3D3D5;
+$graytan80:#DBDBDC;
+$graytan60:#E3E3E3;
+$graytan40:#EBEAEB;
+$graytan20:#F3F2F3;
+
+.bg-blk { background-color:$black; }
+.bg-wht { background-color:$white; }
+.bg-pnk { background-color:$pink60; }
+.bg-gry { background-color:$graytan; }
+
+
+/* Type Scale
+   ========================================================================== */
+
+/**
+ * 12 & 16 as roots then powers of two.
+ */
+
+$font-size-1:60px;
+$font-size-2:58px;
+$font-size-3:32px;
+$font-size-4:28px;
+$font-size-5:20px;
+$font-size-6:18px;
+$font-size-7:16px;
+$font-size-8:12px;
+
+
+/* Medium */
+$breakpoint-1-max-width:48em;
+
+/* Large */
+$breakpoint-2-min-width:48em;
+$breakpoint-2-max-width:64em;
+

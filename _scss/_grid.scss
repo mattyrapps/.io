@@ -1,0 +1,52 @@
+/* ==========================================================================
+   Media Queries
+
+   - Not-small
+   - Medium
+   - Large
+   ========================================================================== */
+
+
+/* Not-small (anything bigger than your first breakpoint)
+   ========================================================================== */
+
+@include break(not-small) {
+
+}
+
+/* Medium - only targets 1st breakpoint. Styles do not extend past 64em.
+   ========================================================================== */
+
+@include break(medium) {
+
+}
+
+/* Large - only targets 2nd breakpoint. Styles do not extend past 64em.
+   ========================================================================== */
+
+@include break(large) {
+
+}
+
+
+/* ------------------ widths ------------------ */
+.max-width { max-width: 960px; }
+.width-full-left { padding-left:5%; margin:0;}
+.width-90 { width:90%; margin:auto; @extend .max-width;}
+.width-60 { width:60%; margin:auto; }
+.width-40 { width:40%; margin:auto; }
+.width-30 { width:30%; margin:auto; }
+.width-25 { width:25%; margin:auto; }
+.width-20 { width:20%; margin:auto; }
+.width-10 { width:10%; margin:auto; }
+
+/* ------------------ Vertical ------------------ */
+$br:1em;
+
+.margin-before { margin-top:$br;}
+.margin-2x-before { margin-top:$br * 2;}
+.margin-after { margin-bottom:$br;}
+.margin-2x-after { margin-bottom:$br * 2;}
+
+.pad-vert-center { padding-top:$br; padding-bottom:$br;}
+.pad-1em { padding:$br; }
