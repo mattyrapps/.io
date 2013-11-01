@@ -24,7 +24,16 @@ hr {
 }
 
 header h1 {
-    margin-bottom:0.5em;
+    margin-bottom:15px 0;
+    font-size:28px;
+}
+
+.hi.we.are.msmk{
+    padding-left:5%;
+    h1 {
+        font-size:48px;
+        max-width:700px;
+    }
 }
 
 ul { @extend .ul-nostyle, .f-size-5, .uppercase; 
