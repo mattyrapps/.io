@@ -1,7 +1,9 @@
-msmk
-===
+MSMK
+====
+http://msmk.io
 
-Running locally
-===============
-$ jekyll serve --watch --baseurl=
-$ sass --watch _scss:css
+A digital creative consultancy based in San Francisco.
+
+This is our site. It is built uising Jekyll and hosted on Heroku.
+
+Many thanks to @okayjeffrey for the visuals.
