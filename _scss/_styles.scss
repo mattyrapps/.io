@@ -41,9 +41,9 @@ ul { @extend .ul-nostyle, .f-size-5, .uppercase;
     &.posts {
         @extend .text-normal;
         > li { padding-top:0.6em; 
-//            &:nth-of-type(2) {
-//                @extend .bg-white;
-//            }
+            &:nth-of-type(2) {
+                @extend .bg-white;
+            }
         }
     }
 }
