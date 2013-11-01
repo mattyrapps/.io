@@ -2,8 +2,6 @@ MSMK
 ====
 http://msmk.io
 
-A digital creative consultancy based in San Francisco.
+MSMK is a digital creative consultancy based in San Francisco. This is our website. It is built uising Jekyll and hosted on Heroku.
 
-This is our site. It is built uising Jekyll and hosted on Heroku.
-
-Many thanks to @okayjeffrey for the visuals.
+Many thanks to @okayjeffrey for helping us with the visuals.
