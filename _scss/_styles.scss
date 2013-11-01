@@ -24,8 +24,8 @@ hr {
 }
 
 header h1 {
-    margin-bottom:15px 0;
-    font-size:28px;
+    margin:15px 0;
+    font-size:36px;
 }
 
 .hi.we.are.msmk{
@@ -35,7 +35,7 @@ header h1 {
         max-width:700px;
     }
 }
-
+ 
 ul { @extend .ul-nostyle, .f-size-5, .uppercase; 
     li { padding:0 0 1em 0;}
     &.posts {
