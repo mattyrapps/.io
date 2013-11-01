@@ -146,10 +146,10 @@ $graytan40:#EBEAEB;
 $graytan20:#F3F2F3;
 
 .bg-blk { background-color:$black; }
-.bg-wht { background-color:$white; 
-     @include texture($white, 82, 1); 
-}
-.bg-pnk { background-color:$pink60;  }
+.bg-wht { background-color:$white; }
+.bg-pnk { background-color:$pink60; 
+		 @include texture($pink60, 82, 0); 
+ }
 .bg-gry { background-color:$graytan; }
 
 
