@@ -340,11 +340,11 @@ table {
   background-color: black; }
 
 .bg-wht {
+  background-color: white;
+  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/wavecut.png");
   background-color: white; }
 
 .bg-pnk {
-  background-color: #f5e4ec;
-  background: url("https://raw.github.com/Magnus-G/texture-mixin/gh-pages/textures/inverted/pw_maze_white.png");
   background-color: #f5e4ec; }
 
 .bg-gry {
