@@ -1,4 +1,4 @@
-baseurl: http://jeffreylarrimore.com/msmk.io/
+baseurl: http://www.msmk.io/
 # jekyll serve --watch --baseurl=
 name: MSMK
 markdown: redcarpet
