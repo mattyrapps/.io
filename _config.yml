@@ -5,4 +5,3 @@ markdown: redcarpet
 pygments: true
 permalink: pretty
 exclude: ["vendor", "Gemfile", "Procfile"]
-include: ["specialized"]
