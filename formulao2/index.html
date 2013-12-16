@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>MSMK + FORMULA O2</title>
+
+		<meta name="description" content="This presentation contains information about how to use Formula O2\'s customized Wordpress instance.">
+		<meta name="author" content="Matt Kosoy for MSMK">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>FORMULA O2</h1>
+					<h3>Wordpress Walkthrough</h3>
+					<p>presented by MSMK</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Overview and Architecture.</h2>
+					</section>
+
+					<section>
+					<h2>We've made it really easy for you to manage the site</h2>
+					<p><a href="http://dev.drinko2.com/wp-admin" target="_blank">The CMS</a> is ready for you to use</p>		
+
+						<small>That link goes to the development site. The live site will have it's own CMS at drinko2.com/wp-admin</small>
+
+					</section>
+
+					<section>
+						<h2>The Technical Stuff</h2>
+						<p>A very quick breakdown of the technology we've leveraged on drinko2.com</p>
+					</section>
+
+					<section>
+						<h3>Wordpress</h3>
+						<ul>
+							<li><a href="https://codex.wordpress.org/Theme_Customization_API">Theme Customization API</a></li>
+							<li><a href="http://codex.wordpress.org/Template_Tags">Template Tags</a></li>
+							<li><a href="http://codex.wordpress.org/Post_Types">Custom Post Types API</a></li>
+							<li><a href="http://www.advancedcustomfields.com/resources/">Advanced Custom Fields API</a></li>
+							<li><a href="http://codex.wordpress.org/Class_Reference/WP_Query">WP Query</a></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Front End Engineering</h3>
+						<ul>
+							<li><a href="http://jquery.com/">jQuery</a></li>
+							<li><a href="http://markdalgleish.com/projects/stellar.js/">Stellar.js</a></li>
+							<li><a href="http://imakewebthings.com/jquery-waypoints/">Waypoints.js</a></li>
+							<li><a href="http://nicinabox.com/superslides/">Superslides.js</a></li>
+							<li><a href="https://developers.google.com/maps/documentation/javascript/">Google Maps V3</a></li> 
+							<li><a href="http://elliotjaystocks.com/blog/a-better-photoshop-grid-for-responsive-web-design/">1000px Grid</a></li>
+						</ul>
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<h1>The Parts of the Website</h1>
+					</section>
+						
+					<section>
+						<h1>Header</h1>
+						<img src="img/header.jpg" alt="the-header" />
+					</section>
+
+					<section>
+						<h1>Slideshow</h1>
+						<img src="img/slideshow.jpg" alt="the-header" />
+					</section>
+
+					<section>
+						<h1>Features</h1>
+						<img src="img/features.jpg" alt="features" />
+					</section>
+
+					<section>
+						<h1>Retailers</h1>
+						<img src="img/retailers.jpg" alt="retailers" />
+					</section>
+
+					<section>
+						<h1>Connect</h1>
+						<img src="img/connect.jpg" alt="Connect" />
+					</section>
+
+					<section>
+						<h1>Footer</h1>
+						<img src="img/footer.jpg" alt="Footer" />
+					</section>
+				</section>
+
+					
+				
+				<section>
+					<h2>The Header</h2>
+					<ul>
+						<li>Logo sends user "back to top"</li>
+						<li>Header language is static</li>
+						<li>We can update it for you, no problem</li>
+						<li>Next phase we can tie the header into WP</li>
+					</ul>
+				</section>
+
+				<section>
+					<section>
+						<h2>Slideshow</h2>
+						<p><img src="img/add_media.jpg" alt="Add Media"/></p>
+					</section>
+
+					<section>
+						<h2>Slideshow</h2>
+						<p>
+							<ul>
+								<li>Pages > Main Slideshow > Add Media</li>
+								<li>Click the "upload media" tab.</li>
+								<li>Upload imagery</li>
+								<li>Drag and drop to reorder</li>
+								<li>Be sure to set the media scope to "uploaded to this page"</li>
+							</ul>
+						</p>
+
+						<p><small>Add captioning and colors to fields at the bottom of the Main Slideshow screen.</small></p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Features</h2>
+						<p><img src="img/features_main_screen.jpg" alt="Features" /></p>
+					</section>
+
+
+					<section>
+						<h2>Features</h2>
+						<h3>Adding, Editing and Reordering</h3>
+						<p>
+							<ol>
+								<li>Select "features" from the side nav</li>
+								<li>"Add new" to create a new one.</li>
+								<li>Click title to edit existing feature</li>
+								<li>Select Re-order to drag and drop the arrangement</li>
+							</ol>
+						</p>
+					</section>
+
+					<section>
+						<h2>Feature Content Editing</h2>
+						<p><img src="img/features_editing.jpg" alt="Features" /></p>					
+					</section>
+
+					<section>
+						<h2>Feature Content Editing</h2>
+						<p>
+							<ol>
+								<li>Add title</li>
+								<li>Create the text content</li>
+								<li>Set the <a href="http://codex.wordpress.org/Post_Thumbnails">featured image</a></li>
+								<li>Optional secondary title</li>
+								<li>Choose the alignment of the feature</li>
+								<li>Select "super large" if you want this feature to be Parallax'd</li>
+								<li>Update the background ratio if you wish to adjust the motion settings</li>
+								<li>Choose color of the header text</li>
+							</ol>
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Retailers</h2>
+						<p><img src="img/retailer_management.jpg" alt="retailers" /></p>
+					</section>
+
+					<section>
+						<h2>Retailers</h2>
+						<ol>
+							<li>Add Name</li>
+							<li>Street</li>
+							<li>City</li>
+							<li>State</li>
+							<li>Zip</li>
+						</ol>
+
+						<p><small>Latitude and Longitude are added automatically</small></p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Connect &amp; Footer</h2>
+						<p><img src="img/settings.jpg" alt="Settings" /></p>
+					</section>
+
+					<section>
+						<h2>Connect &amp; Footer</h2>
+							<p>Email sign up form goes to Mailchimp</p>
+							<p><small>Footer copy is static until phase 2.</small></p>
+						</section>
+				</section>
+
+				<section>
+					<h1>The End!</h1>
+					<p><img src="img/thatsall.gif" alt="Thanks" /></p>
+					<p><small>For now</small></p>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
