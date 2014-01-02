@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hi Tauheed.
+title: MSMK — A digital creative consultancy based in San Francisco.
 ---
 
 #A digital creative consultancy based in San Francisco.
