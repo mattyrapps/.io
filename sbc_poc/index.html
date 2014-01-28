@@ -5,7 +5,6 @@
 <title>Proof of Concept</title>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script type="text/javascript">
-
 	function tumblit(reponse) {
 	var posts = reponse.response.posts;
 	var text ='';
@@ -16,27 +15,23 @@
 		if(p.type === 'photo'){
 			text += '<li><a href='+p.post_url+'><img src="'+p.photos[0].original_size.url+'" alt="hi" /></a></li>';
 		} else {
-			text += '<li><a href='+p.post_url+'><h2>'+p.text+'</a></h2></li>';
+			text += '<li><h2><a href='+p.post_url+'><h2>'+p.text+'</a></h2></li>';
 		}
 	}
 	$('ul').append(text);
 	}
 
-
-
-$('document').ready(function () {
-	$.ajax({
-		url: 'http://api.tumblr.com/v2/blog/msmkio.tumblr.com/posts',
-		method: 'get',
-		data : ({
-			api_key :'NctikkX8PnRy8uBDR69wrC1611MrBPYWHCWofT21uYVcYOQHLD',
-			jsonp : 'tumblit'
-		}),
-		dataType: "jsonp"
+	$('document').ready(function () {
+		$.ajax({
+			url: 'http://api.tumblr.com/v2/blog/msmkio.tumblr.com/posts',
+			method: 'get',
+			data : ({
+				api_key :'NctikkX8PnRy8uBDR69wrC1611MrBPYWHCWofT21uYVcYOQHLD',
+				jsonp : 'tumblit'
+			}),
+			dataType: "jsonp"
+		});
 	});
-});
-
-
 </script>
 </head>
 <body>
