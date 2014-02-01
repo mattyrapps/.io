@@ -83,11 +83,13 @@ img{vertical-align:bottom;
 header{display:block;width:100%; height:40px; min-width:700px; background:#ed1c24; margin:0 0 30px; 0;}
 
 
-.primary.container{ margin-top:30px;}
+img { max-width:100%;}
+.primary.container{ margin-top:100px;}
 
 .container, figure{position:relative;}
 
-.container{width:700px; margin:0 auto;}
+.container{width:550px; margin:0 auto;}
+
 
 li{display:inline-block; margin:15px 10px 0 0;}
 
@@ -96,7 +98,7 @@ a{color:#777; transition: color 0.25s ease-in-out; text-decoration:none;}
 a:hover{color:#444;}
 
 p{position:absolute; font: .825em 'TradeGothicLTStdBold'; line-height:1.25em; text-align:right; 
-width:100px; margin:-18px 0 0 600px;}
+width:100px; margin:-18px 0 0 450px;}
 
 
 
